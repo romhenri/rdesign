@@ -125,6 +125,10 @@ h6 {
 	font-family: var(--font-secondary);
 }
 
+header h1 {
+	font-family: 'Montserrat', sans-serif, Arial !important;
+}
+
 @media (max-width: 768px) {
 	.page-header h2 {
 		font-size: 36px;
@@ -330,7 +334,6 @@ h6 {
 	margin: 0;
 	font-weight: 400;
 	color: #fff;
-	font-family: var(--font-secondary);
 }
 
 .header .logo i {
@@ -1365,13 +1368,15 @@ h6 {
 /* Details */
 
 body::-webkit-scrollbar {
+	width: 0px; /* width of the entire scrollbar */
+}
+body.loaded::-webkit-scrollbar {
 	width: 10px; /* width of the entire scrollbar */
 }
 body::-webkit-scrollbar-track {
 	background: #1b1a1a; /* color of the tracking area */
 }
 body::-webkit-scrollbar-thumb {
-	background-color: #c1b196;
 	background-image: linear-gradient(
 		45deg,
 		rgb(217, 21, 239) 0%,
