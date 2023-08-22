@@ -112,6 +112,18 @@ h6 {
 /*--------------------------------------------------------------
 # Page Header
 --------------------------------------------------------------*/
+#header > div {
+	position: relative;
+}
+
+#header > div > nav {
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	transform: translateX(-30px);
+}
+
 .page-header {
 	padding: 120px 0 60px 0;
 	min-height: 30vh;
@@ -393,6 +405,7 @@ header h1 {
 
 	.navbar li {
 		position: relative;
+		text-align: center;
 	}
 
 	.navbar a,
