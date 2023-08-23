@@ -813,6 +813,14 @@ header h1 {
 	margin: 0;
 }
 
+.glightbox.preview-link {
+	padding: 50px;
+}
+
+.glightbox.preview-link > i{
+	font-size: 25px;
+}
+
 /*--------------------------------------------------------------
 # Gallery Single Section
 --------------------------------------------------------------*/

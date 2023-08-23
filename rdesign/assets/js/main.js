@@ -115,10 +115,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	initGight()
 
-	cardsContainer.addEventListener("onclick", () => {
-		initGight()
-	})
-
 	/**
 	 * Init swiper slider with 1 slide at once in desktop view
 	 */
