@@ -102,11 +102,21 @@ document.addEventListener('DOMContentLoaded', () => {
 		)
 	}
 
+	var cardsContainer = document.querySelector(".cards-container")
+
 	/**
 	 * Initiate glightbox
 	 */
-	const glightbox = GLightbox({
-		selector: '.glightbox',
+	function initGight() {
+		const glightbox = GLightbox({
+			selector: '.glightbox',
+		})
+	}
+
+	initGight()
+
+	cardsContainer.addEventListener("onclick", () => {
+		initGight()
 	})
 
 	/**
