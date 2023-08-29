@@ -117,11 +117,17 @@ h6 {
 }
 
 #header > div > nav {
-	position: absolute;
-	width: 100%;
+	/* position: absolute; */
+	/* width: 100%; */
 	display: flex;
 	justify-content: center;
-	transform: translateX(-30px);
+	transform: translateX(-60px);
+}
+
+@media (max-width: 800px) {
+	#header > div > nav {
+		transform: translateX(+180px);
+	}
 }
 
 .page-header {
