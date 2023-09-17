@@ -3,11 +3,12 @@ var trashHTML = cardsContainer.innerHTML
 
 cardsContainer.innerHTML = ``
 const pathData = "../../cards.json";
+const urlData = "https://romhenri.github.io/rdesign/cards.json";
 
 getData()
 
 function getData() {
-  fetch(pathData)
+  fetch(urlData)
       .then(response => response.json())
       .then(data => {
         console.log(data);
