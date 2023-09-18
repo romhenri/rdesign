@@ -2,8 +2,8 @@ var cardsContainer = document.querySelector(".cards-container")
 var trashHTML = cardsContainer.innerHTML
 
 cardsContainer.innerHTML = ``
-const pathData = "../../cards.json";
-const urlData = "https://romhenri.github.io/rdesign/cards.json";
+const pathData = "../../posts.json";
+const urlData = "https://romhenri.github.io/rdesign/posts.json";
 
 getData()
 
