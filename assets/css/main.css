@@ -1296,6 +1296,14 @@ header h1 {
 	padding: 140px 0 60px 0;
 }
 
+.section-hero {
+	width: 100%;
+	background: #000;
+	background-size: cover;
+	position: relative;
+	padding: 60px 0 10px 0;
+}
+
 .hero h2 {
 	margin: 0 0 10px 0;
 	font-size: 38px;

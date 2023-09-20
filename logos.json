@@ -10,5 +10,9 @@
   {
     "name" : "Logo Lusion.",
     "src" : "./portfolio/logos/logo-lusion.png"
+  },{
+    "name" : "Logo Solaris Light.",
+    "src" : "./portfolio/logos/logo-solaris.png"
   }
+
 ]
