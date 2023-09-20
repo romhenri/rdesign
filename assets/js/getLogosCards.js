@@ -1,7 +1,4 @@
-var cardsContainer = document.querySelector(".logos-container")
-var trashHTML = cardsContainer.innerHTML
-
-cardsContainer.innerHTML = ``
+var logosContainer = document.querySelector(".logos-container")
 const pathData = "../../logos.json";
 const urlData = "https://romhenri.github.io/rdesign/logos.json";
 
@@ -44,7 +41,8 @@ function createCard(item) {
       </div>
     </div>
   `
-  cardsContainer.appendChild(card)
+
+  logosContainer.appendChild(card)
 }
 
 function initGight() {
